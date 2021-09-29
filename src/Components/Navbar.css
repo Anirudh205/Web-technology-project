@@ -1,0 +1,11 @@
+.navbar-sections {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 1rem;
+  background-color: aqua;
+}
+
+.navbar-sections > section {
+  cursor: pointer;
+}

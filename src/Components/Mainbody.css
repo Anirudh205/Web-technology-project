@@ -1,0 +1,13 @@
+.mainbody {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.mainbody > div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  height: 200vh;
+}
