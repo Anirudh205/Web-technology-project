@@ -1,0 +1,36 @@
+.write-story {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: rgb(50, 6, 121);
+}
+
+.mid-write-area {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid black;
+  padding: 2rem;
+  height: calc(85vh - 5rem);
+  background-color: white;
+  border-radius: 16px;
+}
+
+input {
+  width: 70%;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+textarea {
+  outline: none;
+  border-radius: 8px;
+}
+
+button {
+  cursor: pointer;
+}

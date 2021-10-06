@@ -2,12 +2,26 @@
   display: flex;
   justify-content: center;
   padding: 1rem;
+  background-color: rgb(50, 6, 121);
 }
 
 .mainbody > div {
   width: 50%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  gap: 20px;
   border: 1px solid black;
-  height: 200vh;
+  height: 100vh;
+}
+
+.mainbody-mid {
+  display: flex;
+  flex-direction: column;
+}
+
+.card{
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+  background-color: white ;
 }

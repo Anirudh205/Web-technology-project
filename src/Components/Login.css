@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap");
+.login-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  font-family: Nunito;
+  background-color: rgb(50, 6, 121);
+}
+
+.mid-area {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  text-align: center;
+  padding: 7rem;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-weight: bolder;
+  background-color: white;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  color: lightskyblue;
+  border-radius: 10px;
+  background-color: white;
+  outline: none;
+  font-weight: bolder;
+}
